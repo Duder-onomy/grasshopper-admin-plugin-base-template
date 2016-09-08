@@ -1,0 +1,19 @@
+{
+  "name": "grasshopper-admin-plugin-base-template",
+  "version": "1.0.0",
+  "description": "Will be used to ensure all grasshopper admin plugins inherit from the same base structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duder-onomy/grasshopper-admin-plugin-base-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Duder-onomy/grasshopper-admin-plugin-base-template/issues"
+  },
+  "homepage": "https://github.com/Duder-onomy/grasshopper-admin-plugin-base-template#readme"
+}
