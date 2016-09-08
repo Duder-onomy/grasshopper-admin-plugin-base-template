@@ -7,9 +7,15 @@ html
         block head
     body
         #siteContainer
-            block headerbar
-            block masthead
+            #header(style='display : none !important;')
+            #headerbar(riot-tag='tabs-bar')
+            #masthead
             #stage.container.markdown-body
                 block stage
+            #alertBox
             #modal
+        script.
+            window.gh = window.gh || {};
+            window.gh.configs = JSON.parse('!{JSON.stringify(ghAdminConfigs)}');
         block scripts
+
